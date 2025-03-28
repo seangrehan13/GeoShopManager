@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## UK Postcode Format
+
+To find more information about the [UK Postcode Format](https://ideal-postcodes.co.uk/guides/uk-postcode-format) check out this source.
+
+## Generating Test Data
+
+To find the latitude and longitude of any place on earth you can use [Google Maps](https://www.google.co.uk/maps).
+
+To create some real-world test data and to find the exact distance between two places, you can use this [Online GPS Calculator](https://gps-coordinates.org/distance-between-coordinates.php).
+
+## Potential improvements
+
+. Add tests for the import postcodes command
+. Add tests for fail conditions
+. Implement the repository pattern to seperate the concerns of querying the database from the controllers
+. In the test code, implement builder pattern to generate coordinates more easily and to reduce code duplication
+. Add extra validation for the postcode field / extract that line of code into a separate function
+. Create authentication (OAuth) routes so that the system can be used as an API
+. Reduce the amount of duplicated code around the controllers that deals with errors/exceptions
