@@ -65,6 +65,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## matanyadaev/laravel-eloquent-spatial
+
+Please note that this project doesn't support sqlite as we are using this package [matanyadaev/laravel-eloquent-spatial](https://github.com/MatanYadaev/laravel-eloquent-spatial). However in the future they may add support.
+
 ## UK Postcode Format
 
 To find more information about the [UK Postcode Format](https://ideal-postcodes.co.uk/guides/uk-postcode-format) check out this source.
