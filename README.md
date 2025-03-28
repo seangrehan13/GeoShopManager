@@ -81,10 +81,10 @@ To create some real-world test data and to find the exact distance between two p
 
 ## Potential improvements
 
-. Add tests for the import postcodes command
-. Add tests for fail conditions
-. Implement the repository pattern to seperate the concerns of querying the database from the controllers
-. In the test code, implement builder pattern to generate coordinates more easily and to reduce code duplication
-. Add extra validation for the postcode field / extract that line of code into a separate function
-. Create authentication (OAuth) routes so that the system can be used as an API
-. Reduce the amount of duplicated code around the controllers that deals with errors/exceptions
+- Add tests for the import postcodes command.
+- Add tests for fail conditions.
+- Implement the repository pattern to seperate the concerns of querying the database from the controllers.
+- In the test code, implement builder pattern to generate coordinates more easily and to reduce code duplication.
+- Add extra validation for the postcode field / extract that line of code into a separate function.
+- Create authentication (OAuth) routes so that the system can be used as an API.
+- Reduce the amount of duplicated code around the controllers that deals with errors/exceptions.
